@@ -70,7 +70,7 @@ flutter:
   fonts:
     - family: Montserrat
       fonts:
-        - asset: assets/fonts/Montserrat-VariableFont_wght.ttf
+        - asset: assets/fonts/Montserrat-Regular.ttf
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
 flutter_assets:

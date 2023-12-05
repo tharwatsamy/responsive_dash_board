@@ -20,13 +20,7 @@ class UserInfoListTile extends StatelessWidget {
         leading: SvgPicture.asset(image),
         title: Text(
           title,
-          style: const TextStyle(
-            color: Color(0xFF064060),
-            fontSize: 16,
-            fontFamily: 'Montserrat',
-            fontWeight: FontWeight.w600,
-            height: 0,
-          ),
+          style: AppStyles.styleSemiBold16,
         ),
         subtitle: Text(
           subtitle,
