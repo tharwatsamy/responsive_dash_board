@@ -20,6 +20,9 @@ class AllExpenses extends StatelessWidget {
       child: const Column(
         children: [
           AllExpensessHeader(),
+          SizedBox(
+            height: 16,
+          ),
           AllExpensessItem(
             itemModel: AllExpensessItemModel(
               image: Assets.imagesIncome,
