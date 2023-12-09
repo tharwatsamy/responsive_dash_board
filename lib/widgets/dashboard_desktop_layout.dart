@@ -19,6 +19,9 @@ class DashboardDesktopLayout extends StatelessWidget {
             child: Column(
               children: [
                 AllExpenses(),
+                SizedBox(
+                  height: 24,
+                ),
                 QuickInvoice(),
               ],
             ))
