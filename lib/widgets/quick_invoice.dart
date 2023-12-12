@@ -5,6 +5,7 @@ import 'package:responsive_dash_board/widgets/custom_text_field.dart';
 import 'package:responsive_dash_board/widgets/latest_transction.dart';
 import 'package:responsive_dash_board/widgets/latest_transction_list_view.dart';
 import 'package:responsive_dash_board/widgets/quick_invoice_header.dart';
+import 'package:responsive_dash_board/widgets/title_text_field.dart';
 
 class QuickInvoice extends StatelessWidget {
   const QuickInvoice({super.key});
@@ -19,7 +20,7 @@ class QuickInvoice extends StatelessWidget {
         Divider(
           height: 48,
         ),
-        CustomTextField()
+        TitleTextField(title: 'Customer name', hint: 'Type customer name'),
       ],
     ));
   }

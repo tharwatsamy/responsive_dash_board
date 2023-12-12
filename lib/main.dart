@@ -10,9 +10,8 @@ class ResponsiveDashBoard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      theme: ThemeData(useMaterial3: true),
-      home: const DashBoradView(),
+    return const MaterialApp(
+      home: DashBoradView(),
     );
   }
 }
