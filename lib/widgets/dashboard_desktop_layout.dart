@@ -3,6 +3,7 @@ import 'package:responsive_dash_board/widgets/all_expensess.dart';
 import 'package:responsive_dash_board/widgets/all_expensess_and_quick_invoice_section.dart';
 import 'package:responsive_dash_board/widgets/custom_dot.dart';
 import 'package:responsive_dash_board/widgets/custom_drawer.dart';
+import 'package:responsive_dash_board/widgets/dots_indicator.dart';
 import 'package:responsive_dash_board/widgets/my_card.dart';
 import 'package:responsive_dash_board/widgets/my_cards_page_view.dart';
 import 'package:responsive_dash_board/widgets/quick_invoice.dart';
@@ -22,9 +23,7 @@ class DashboardDesktopLayout extends StatelessWidget {
         SizedBox(
           width: 24,
         ),
-        CustomDotIndicator(
-          isActive: false,
-        )
+        DotsIndicator(),
       ],
     );
   }
