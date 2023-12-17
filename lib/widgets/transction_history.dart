@@ -6,23 +6,48 @@ class TrasnctionHistory extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return const Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            const Text(
-              'Transaction History',
-              style: AppStyles.styleSemiBold20,
-            ),
-            Text(
-              'See all',
-              style: AppStyles.styleMedium16.copyWith(
-                color: const Color(0xFF4EB7F2),
-              ),
-            )
-          ],
+        TansctionHistoryHeader(),
+        SizedBox(
+          height: 20,
         ),
+        Text(
+          '13 April 2022',
+          style: TextStyle(
+            color: Color(0xFFAAAAAA),
+            fontSize: 16,
+            fontFamily: 'Montserrat',
+            fontWeight: FontWeight.w500,
+            height: 0,
+          ),
+        )
+      ],
+    );
+  }
+}
+
+class TansctionHistoryHeader extends StatelessWidget {
+  const TansctionHistoryHeader({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      children: [
+        const Text(
+          'Transaction History',
+          style: AppStyles.styleSemiBold20,
+        ),
+        Text(
+          'See all',
+          style: AppStyles.styleMedium16.copyWith(
+            color: const Color(0xFF4EB7F2),
+          ),
+        )
       ],
     );
   }
