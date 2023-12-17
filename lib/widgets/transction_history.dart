@@ -24,6 +24,9 @@ class TrasnctionHistory extends StatelessWidget {
             height: 0,
           ),
         ),
+        SizedBox(
+          height: 16,
+        ),
         TransctionHistoryListView(),
       ],
     );
