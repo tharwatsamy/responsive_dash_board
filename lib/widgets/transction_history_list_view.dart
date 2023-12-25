@@ -24,6 +24,9 @@ class TransctionHistoryListView extends StatelessWidget {
   ];
   @override
   Widget build(BuildContext context) {
+    return Column(
+      children: items.map((e) => TransctionItem(transctionModel: e)).toList(),
+    );
     return ListView.builder(
         itemCount: items.length,
         shrinkWrap: true,
