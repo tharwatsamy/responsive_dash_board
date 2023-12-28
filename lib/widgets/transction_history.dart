@@ -43,7 +43,7 @@ class TansctionHistoryHeader extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        const Text(
+        Text(
           'Transaction History',
           style: AppStyles.styleSemiBold20,
         ),
