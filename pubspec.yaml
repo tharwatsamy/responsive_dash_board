@@ -29,6 +29,7 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   cupertino_icons: ^1.0.2
+  device_preview: ^1.1.0
   expandable_page_view: ^1.0.17
   fl_chart: ^0.65.0
   flutter:
